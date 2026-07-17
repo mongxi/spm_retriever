@@ -21,7 +21,7 @@ jobs:
           - x64
     env:
       CSC_IDENTITY_AUTO_DISCOVERY: "false"
-      PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/browsers-${{ matrix.arch }}
+      PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/browsers
 
     steps:
       - name: Checkout repository
@@ -39,7 +39,7 @@ jobs:
 
       - name: Install Chromium for packaging
         run: |
-          mkdir -p "browsers-${{ matrix.arch }}"
+          mkdir -p browsers
           npx playwright install chromium
 
       - name: Build macOS package
