@@ -1,0 +1,55 @@
+
+{
+  "LOG_BASE_DIR": "../log",
+  "AUTO_CHECK": true,
+  "AUTO_DOWNLOAD": true,
+  "ERROR_SCREENSHOT_DIR_NAME": "screenshots",
+  "backend": {
+    "LOCAL_PORT": 3000,
+    "SPRING_PORT": 8080,
+    "LOCAL_HOST": "localhost",
+    "LOCAL_BASE_URL": "http://localhost:3000",
+    "SPRING_BASE_URL": "http://localhost:8080"
+  },
+  "update": {
+    "UPDATE_URL": "http://124.70.184.0:8100/",
+    "AUTO_CHECK": true,
+    "CHECK_INTERVAL": 3600000
+  },
+  "googleScholar": {
+    "PRECISE_SEARCH_ENABLED": true,
+    "TITLE_SIMILARITY_THRESHOLD": 0.8,
+    "VISIT_CITATION_ENABLED": true,
+    "MAX_CITATION_PAGES": 2,
+    "OUTPUT_BASE_DIR_NAME": "../output/google"
+  },
+  "googleScholarAuthor": {
+    "OUTPUT_BASE_DIR_NAME": "../output/google_authors"
+  },
+  "scopus": {
+    "USER_NAME": "28199134",
+    "PASSWORD": "460256",
+    "BASE_URL": "https://www.2447.net/",
+    "OUTPUT_DIR_NAME": "../output/scopus",
+    "CAPTCHA_DIR_NAME": "captcha_temp",
+    "SCREENSHOT_DIR_NAME": "screenshots"
+  },
+  "scopusAuthor": {
+    "OUTPUT_BASE_DIR_NAME": "../output/scopus_authors"
+  },
+  "wos": {
+    "USER_NAME": "28199134",
+    "PASSWORD": "460256",
+    "BASE_URL": "https://www.2447.net/",
+    "OUTPUT_DIR_NAME": "../output/wos",
+    "CAPTCHA_DIR_NAME": "captcha_temp",
+    "SCREENSHOT_DIR_NAME": "screenshots"
+  },
+  "wosAuthor": {
+    "OUTPUT_BASE_DIR_NAME": "../output/wos_authors",
+    "credentials": {
+      "EMAIL": "1594611058@qq.com",
+      "PASSWORD": "san20060426!"
+    }
+  }
+}
